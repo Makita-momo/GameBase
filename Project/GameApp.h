@@ -11,13 +11,15 @@
 
 //INCLUDE
 #include	"Mof.h"
-
+#include	"SceneManeger.h"
 /*******************************//*!
 @brief	基本ゲームアプリ。
 
 @author	濱田　享
 *//********************************/
 class CGameApp : public CSingleGameApplication {
+private:
+	Game::SceneManeger sceneManeger;
 public:
 	/*************************************************************************//*!
 			@brief			コンストラクタ

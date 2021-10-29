@@ -7,7 +7,7 @@ namespace Game
 	class SceneBase
 	{
 	protected:
-		bool changeFlag;	//シーン変更フラグ
+		bool changeFlag {false};	//シーン変更フラグ
 
 		int nextScene;	//変更先シーン
 
